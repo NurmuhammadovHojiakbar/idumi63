@@ -99,13 +99,14 @@ body{
   color: rgba(255, 255, 255, 0.13);
 }
 .header-heading{
+  margin-left: 25px;
   padding-left: 25px;
   width: 475px;
   border-left: 4px solid var(--text-color);
   font-size: 50px;
   font-family: var(--montserrat);
 }
-.header-heading span{
+.caption span{
   color: var(--text-color);
 }
 .header-p{
@@ -140,3 +141,38 @@ body{
   background-color: transparent;
 }
 
+/*========================================================================== 
+                                    MAIN  
+==========================================================================*/
+/* IXTISOSLASHTIRILIGAN FANLAR  */
+
+.ixtisos-fanlar{
+  text-align: center;
+  padding: 100px;
+}
+.fanlar-caption{
+  display: inline-block;
+  padding-left: 25px;
+  border-left: 4px solid var(--text-color);
+  margin-bottom: 70px;
+  color: var(--bg-color);
+}
+.fanlar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fan-image{
+  border-radius: 100%;
+  margin-bottom: 16px;
+}
+.arrow-image{
+  margin-left:25px;
+  margin-right: 25px;
+}
+
+.fan-text{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--bg-color);
+}
