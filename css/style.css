@@ -67,16 +67,17 @@ body{
   list-style-type: none;
 }
 .navbar-item{
-  margin-left: 60px;
+  margin-left: 20px;
 }
 .navbar-link{
+  font-family: var(--poppins);
   text-decoration: none;
   color: #fff;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 .navbar-link:hover{
   color: var(--text-color);
-  font-family: var(--poppins);
 }
 
 .header-bg-image{
