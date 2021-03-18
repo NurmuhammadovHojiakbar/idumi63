@@ -41,6 +41,11 @@ body{
   overflow-x: hidden;
 }
 
+.caption{
+  padding-left: 25px;
+  border-left: 4px solid var(--text-color);
+}
+
 /*================================================================================
                                   HEADER
 ================================================================================*/
@@ -144,6 +149,11 @@ body{
 /*========================================================================== 
                                     MAIN  
 ==========================================================================*/
+main{
+  margin: 0 auto;
+  max-width: 1366px;
+}
+
 /* IXTISOSLASHTIRILIGAN FANLAR  */
 
 .ixtisos-fanlar{
@@ -152,8 +162,6 @@ body{
 }
 .fanlar-caption{
   display: inline-block;
-  padding-left: 25px;
-  border-left: 4px solid var(--text-color);
   margin-bottom: 70px;
   color: var(--bg-color);
 }
@@ -175,4 +183,51 @@ body{
   font-size: 20px;
   font-weight: 400;
   color: var(--bg-color);
+}
+
+/* USTOZLARIMIZ */
+.ustozlar{
+  display: flex;
+  align-items: center;
+  
+  background-color: var(--bg-color-main);
+  color: #fff;
+  text-transform: capitalize;
+  padding: 150px 100px;
+}
+.ustozlar-caption{
+  font-size: 40px;
+}
+.ustozlar-images{
+  width: 850px;
+  overflow-x: auto;
+  margin-left: 25px;
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+}
+.ustozlar-images::-webkit-scrollbar{
+  height: 8px;
+}
+.ustozlar-images::-webkit-scrollbar-thumb{
+  background-color: var(--bg-color);
+  border-radius: 5px;
+}
+.ustoz-info{
+  margin-left: 5px;
+}
+.ustoz-ismi{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #f8f4e1;
+}
+.ustoz-fani{
+ font-size: 14px;
+ letter-spacing: 2px;
+ color: #bbbbbb;
+ margin-bottom: 15px;
 }
