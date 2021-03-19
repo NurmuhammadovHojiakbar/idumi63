@@ -42,6 +42,7 @@ body{
 }
 
 .caption{
+  text-transform: capitalize;
   padding-left: 25px;
   border-left: 4px solid var(--text-color);
 }
@@ -234,4 +235,36 @@ main{
  letter-spacing: 2px;
  color: #bbbbbb;
  margin-bottom: 15px;
+}
+/* TAKLIFLAr  */
+.takliflar{
+  padding: 100px;
+  background-image: url("../images/mainbg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.taklif-caption{
+  color: var(--bg-color-main);
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.taklif-list{
+  list-style-type: none;
+}
+.taklif-item{
+   margin-bottom: 45px;
+}
+.taklif-number{
+  margin-bottom: 40px;
+  font-size: 55px;
+  letter-spacing: 1px;
+  color: #377DFF;
+}
+.taklif-nom{
+  margin-bottom: 25px;
+  color: var(--bg-color-main);
+}
+.taklif-matn{
+  width: 550px;
+  color: var(--paragraph-color);
 }
