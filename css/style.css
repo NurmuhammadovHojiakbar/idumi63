@@ -268,3 +268,7 @@ main{
   width: 550px;
   color: var(--paragraph-color);
 }
+.rasmlar{
+  display: flex;
+  align-items: center;
+}
