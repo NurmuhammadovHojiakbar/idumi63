@@ -470,24 +470,10 @@ main{
   }
 
   /* Footer  */
-  .site-footer{
-    background-color: var(--bg-color);
-    color: #fff;
-    text-align: center;
-  }
-  .footer-about{
-    background-color: var(--bg-color-main);
-    padding: 25px 0;
-  }
-  .footer-about h3{
-    color: var(--text-color);
-    margin-bottom: 25px;
-    font-size: 25px;
-  }
-  .footer-about p{
-    width: 500px;
-    display: inline-block;
-  }
+  
   .footer-copy{
+    background-color: var(--bg-color-main);
     padding: 10px 0;
+    text-align: center;
+    color: #fff;
   }
