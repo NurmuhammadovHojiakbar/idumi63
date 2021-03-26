@@ -51,7 +51,7 @@ body{
                                   HEADER
 ================================================================================*/
 .site-header{
-  width: 1366px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .social-accounts,.site-navbar{
@@ -147,12 +147,60 @@ body{
   background-color: transparent;
 }
 
+/*==============================================================================
+                                Creator
+==============================================================================*/
+.img-wrapper {
+  width: 65px;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  text-align: center;
+  animation: swing 0.8s ease-in-out infinite alternate;
+  transform-origin: center -80px;
+}
+
+@keyframes swing {
+  from { transform: rotate(-6deg); }
+
+  to { transform: rotate(6deg); }
+}
+
+.img-wrapper img {
+  margin-top: 40px;
+  box-shadow: 0 10px 20px rgba(17, 25, 25, 0.2);
+}
+
+.img-wrapper::before,
+.img-wrapper::after{
+  content: "";
+  position: absolute;
+  left: 50%; top: -15%;
+  transform: translateX(-50%);
+  border: 1px solid #272727;
+}
+
+.img-wrapper::before {
+width: 10px; height: 10px;
+border-radius: 50%;
+background-color: #ff7a00;
+box-shadow: 0 0 10px rgba(255, 122, 0, 0.8);
+}
+
+.img-wrapper::after {
+width: 8px; height: 80px;
+border-radius: 10px;
+z-index: -1;
+}
+
+
+
 /*========================================================================== 
                                     MAIN  
 ==========================================================================*/
 main{
   margin: 0 auto;
-  max-width: 1366px;
+  max-width: 1440px;
 }
 
 /* IXTISOSLASHTIRILIGAN FANLAR  */
@@ -276,6 +324,12 @@ main{
 .slider-container{
   background-color: var(--bg-color-main);
   padding: 150px 0 100px;
+  text-align: center;
+  color: #fff;
+}
+.slider-container h2{
+  display: inline-block;
+  margin-bottom: 50px;
 }
 .slider {
   width: 80%; height: 550px;
