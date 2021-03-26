@@ -452,11 +452,15 @@ main{
     margin-left: 20px;
     cursor: pointer;
   }
+  .form-buttons button:hover{
+    color: var(--paragraph-color);
+  }
   .contact-container input{
     font-size: 25px;
     padding: 10px;
     margin-bottom: 10px;
     width: 350px;
+    color: white;
     background-color: var(--bg-color);
     border-top: none; border-left: none; border-right: none; outline: none;
     border-bottom: 2px solid --black-color;
