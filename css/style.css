@@ -470,10 +470,65 @@ main{
   }
 
   /* Footer  */
-  
+  .site-footer{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .footer-copy{
     background-color: var(--bg-color-main);
     padding: 10px 0;
     text-align: center;
     color: #fff;
   }
+
+  /*NEWS*/  
+.yangiliklar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto; 
+}
+.yangiliklar-link p+time{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin-bottom: 10px;
+}
+.yangiliklar-link h2{
+    margin-bottom: 15px;
+    line-height: 24px;
+    color: #202020;
+    font-weight: 600;
+    font-size: 17px;
+}
+.yangiliklar-link time{
+    display: flex;
+    align-items: center;
+}
+.yangiliklar-link time::before{
+    content: "";
+    background-image: url("../images/ic_outline-date-range.png");
+    width: 18px;
+    height: 20px;
+    margin-right: 2px;
+}
+.main-news-image{
+  float: left;
+  margin-right: 19px;
+}
+.yangiliklar-link{
+    margin-bottom: 18px;
+    width: 600px;
+}
+.news-caption{
+  display: inline-block;
+  font-size: 25px;
+  color: var(--bg-color-main);
+}
+.news-title{
+  text-align: center;
+  margin: 25px auto;
+}
