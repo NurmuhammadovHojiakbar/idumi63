@@ -41,6 +41,7 @@
     }
     .col-right img{
        width: 100%;
+       height: 60%;
     }
     .fanlar{
         flex-direction: column;
