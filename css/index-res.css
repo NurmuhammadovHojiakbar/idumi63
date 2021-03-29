@@ -1,0 +1,84 @@
+@media (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .site-header{
+        margin-bottom: 25px;
+    }
+    .header-bg-image{
+        padding: 10px;
+    }
+    .number{
+        font-size: 100px;
+    }
+    .header-heading{
+        font-size: 30px;
+        width: 50vw;
+    }
+    .site-navbar{
+        padding: 50px;
+    }
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .img-wrapper{
+        display: none;
+    }
+    .ixtisos-fanlar{
+        padding: 0px;
+    }
+    .fanlar{
+        flex-direction: column;
+    }
+    .arrow-image{
+        display: none;
+    }
+    .fanlar-fan{
+        margin: 15px;
+    }
+    .ustozlar{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .ustozlar-caption{
+        margin-bottom: 25px;
+    }
+    .ustozlar-images{
+        width: 80vw;
+        margin-left: 0;
+    }
+    .rasmlar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rasmlar img{
+        width: 50vw  !important;
+        height: auto !important;
+    }
+    .takliflar{
+        padding: 40px;
+    }
+    .taklif-matn{
+        width: 70vw;
+    }
+    .slider{
+        width: 70vw;
+        height: auto;
+    }
+    .slide{
+        width: 80%;
+        flex-direction: column;
+    }
+    .contact-container{
+        padding: 50px;
+        flex-direction: column;
+    }
+    .form-buttons{
+        justify-content: flex-start;
+    }
+    .form-buttons button{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}
