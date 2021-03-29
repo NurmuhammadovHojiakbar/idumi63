@@ -84,6 +84,7 @@
     .slider{
         width: 70vw;
         height: auto;
+        border-radius: 15px;
     }
     .slide{
         width: 80%;
