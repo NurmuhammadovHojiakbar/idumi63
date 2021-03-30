@@ -2,6 +2,9 @@
     body{
         overflow-x: hidden;
     }
+    .navigation-container {
+        display: inline-block;
+      }
     .site-header{
         margin-bottom: 25px;
     }
@@ -111,5 +114,30 @@
     .contact-container input{
         width: 70vw;
         font-size: 20px;
+    }
+    .nav-off{
+        display: none;
+    }
+    .nav-on{
+        margin-top: 20px;
+        align-items: flex-start;
+        height: 200px;
+        justify-content: space-between;
+    }
+    .logo-image{
+        margin: 5px auto;
+    }
+    .ham-nav-style{
+        position: fixed;
+        width: 40vw;
+        height: 100%;
+        background-color: rgba(35, 49, 66, 0.5);
+        right: 0;
+        top: 0;
+        transition: padding-right 1s ease;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 100px;
+        padding-right: 50px;
     }
 }
