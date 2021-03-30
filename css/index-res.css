@@ -47,8 +47,9 @@
         padding: 0px;
     }
     .col-right img{
-       width: 100%;
-       height: 60%;
+       width: 50%;
+       height: 30%;
+       text-align: center;
     }
     .fanlar{
         flex-direction: column;
