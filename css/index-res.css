@@ -134,6 +134,7 @@
     .ham-nav-style{
         position: fixed;
         width: 40vw;
+        z-index: 99;
         height: 100%;
         background-color: rgba(35, 49, 66, 0.5);
         right: 0;
